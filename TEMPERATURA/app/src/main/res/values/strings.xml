@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TEMPERATURA</string>
+    <string name="txtTEMPERATURA">Temperatura</string>
+    <string name="txtTIPO">Tipo</string>
+    <string name="btnCALCULAR">Calcular</string>
+    <string name="txtCF">Digite C para Celsius e F para Fahreinheit</string>
 </resources>

@@ -18,11 +18,11 @@ public class Main2Activity extends AppCompatActivity {
             double TEMPERATURA = PARAMETROS.getDouble("key_TEMPERATURA");
             String TIPO = PARAMETROS.getString("key_TIPO");
             if(TIPO.equals("C") || TIPO.equals("c")){
-                double RESULTADO = ((9/5)*TEMPERATURA)+32;
+                double RESULTADO = (TEMPERATURA * 9/5)+32;
                 Toast.makeText(Main2Activity.this,"Temperatura =" + RESULTADO, Toast.LENGTH_LONG).show();
             }
             else {
-                double RESULTADO = (TEMPERATURA-32)/(9/5);
+                double RESULTADO = (TEMPERATURA-32)*5/9;
                 Toast.makeText(Main2Activity.this,"Temperatura =" + RESULTADO, Toast.LENGTH_LONG).show();
             }
 
